@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-hss",
+  "version": "0.0.1",
+  "description": "Default style for JavaScript at Hearsay Social",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hearsaycorp/eslint-config-hss.git"
+  },
+  "keywords": [
+    "eslint",
+    "style",
+    "hss"
+  ],
+  "peerDependencies": {
+    "eslint": "^2.12.0"
+  },
+  "author": "Jordan Eldredge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hearsaycorp/eslint-config-hss/issues"
+  },
+  "homepage": "https://github.com/hearsaycorp/eslint-config-hss#readme",
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "tape": "^4.6.0"
+  }
+}
