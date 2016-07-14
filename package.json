@@ -4,7 +4,7 @@
   "description": "Default style for JavaScript at Hearsay Social",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/hearsaycorp/eslint-config-hss/issues"
   },
-  "homepage": "https://github.com/hearsaycorp/eslint-config-hss#readme"
+  "homepage": "https://github.com/hearsaycorp/eslint-config-hss#readme",
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "tape": "^4.6.0"
+  }
 }
