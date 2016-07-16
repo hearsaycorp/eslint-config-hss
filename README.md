@@ -2,7 +2,7 @@
 
 Hearsay Social's base JavaScript style.
 
-## Ussage
+## Usage
 
 Install this package, and eslint:
 
