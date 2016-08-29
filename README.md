@@ -14,3 +14,20 @@ Add this `extends` value to the root level of your `.eslintrc`:
         "extends": "eslint-config-hss",
         // ...
     }
+
+## Additional Configurations
+
+ESLint allows you to "extend" from multiple base configurations. If you use any
+of the below features, you may add these additional specialized base
+configurations. Each configuration contains only the rules associated with the
+given feature so you may combine them as your project demands.
+
+### ES6
+
+    {
+        "extends": [
+            "eslint-config-hss",
+            "eslint-config-hss/es6"
+        ],
+        // ...
+    }
