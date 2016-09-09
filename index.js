@@ -18,6 +18,7 @@ module.exports = {
         "no-dupe-args": "error",
         "no-dupe-keys": "error",
         "no-duplicate-case": "error",
+        "no-empty": ["error", {"allowEmptyCatch": true}],
         "no-empty-character-class": "error",
         "no-ex-assign": "error",
         "no-extend-native": "error",
