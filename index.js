@@ -6,7 +6,7 @@ module.exports = {
         "curly": "error",
         "eqeqeq": "error",
         "guard-for-in": "error",
-        "indent": ["off", 4, { "SwitchCase": 1 }],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
         "linebreak-style": ["error", "unix"],
         "max-len": ["error", 120, 4, {"ignoreComments": true}],
         "max-statements": ["warn", 50],
