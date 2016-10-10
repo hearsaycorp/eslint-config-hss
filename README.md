@@ -31,3 +31,9 @@ given feature so you may combine them as your project demands.
         ],
         // ...
     }
+
+## Changelog
+
+### 4.0.0
+
+* Begin enforcing indentation. (#7)
