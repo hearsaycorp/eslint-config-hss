@@ -8,7 +8,6 @@ module.exports = {
         "guard-for-in": "error",
         "linebreak-style": ["error", "unix"],
         "max-len": ["error", 120, 4, {"ignoreComments": true}],
-        "max-statements": ["warn", 50],
         "new-cap": ["error", {"capIsNew": false, "properties": false}],
         "no-caller": "error",
         "no-cond-assign": "error",
