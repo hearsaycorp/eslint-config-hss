@@ -50,7 +50,7 @@ _Note_: This config requires that the package being linted have
 
 When linting Underscore templates with
 [eslint-plugin-microtemplates](https://github.com/platinumazure/eslint-plugin-microtemplates),
-some rules don't make sense. To ignore those rule, extend from this config.
+some rules don't make sense. To ignore those rules, extend from this config.
 Note: This config should not be applied to any js files, just html files.
 
     {
