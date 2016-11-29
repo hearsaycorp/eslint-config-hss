@@ -32,7 +32,27 @@ given feature so you may combine them as your project demands.
         // ...
     }
 
+### React
+
+_Note_: This config requires that the package being linted have
+`eslint-plugin-react@^6.7.1` installed .
+
+    {
+        "extends": [
+            "eslint-config-hss",
+            "eslint-config-hss/es6",
+            "eslint-config-hss/react"
+        ],
+        // ...
+    }
+
 ## Changelog
+
+### 5.0.0
+
+* Add shared config for React code.
+* Convert `no-mixed-operators` and `no-multi-spaces` from warnings to errors.
+* Disable `max-statements`.
 
 ### 4.0.0
 
