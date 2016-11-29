@@ -46,7 +46,25 @@ _Note_: This config requires that the package being linted have
         // ...
     }
 
+### Microtemplates
+
+When linting Underscore templates with
+[eslint-plugin-microtemplates](https://github.com/platinumazure/eslint-plugin-microtemplates),
+some rules don't make sense. To ignore those rule, extend from this config.
+Note: This config should not be applied to any js files, just html files.
+
+    {
+        "extends": [
+            "eslint-config-hss/microtemplates"
+        ],
+        // ...
+    }
+
 ## Changelog
+
+### 5.1.0
+
+* Add shared config for Underscore templates.
 
 ### 5.0.0
 
