@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hss",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Default style for JavaScript at Hearsay Social",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "hss"
   ],
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^4.10.0"
   },
   "author": "Jordan Eldredge",
   "license": "ISC",
