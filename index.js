@@ -46,7 +46,11 @@ module.exports = {
         "no-useless-rename": "error",
         "radix": ["error", "always"],
         "semi": ["error", "always"],
-        "space-before-function-paren": ["error", "never"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
         "space-infix-ops": "error",
         "use-isnan": "error",
         "valid-typeof": "error"
