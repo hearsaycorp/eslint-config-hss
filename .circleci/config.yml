@@ -1,0 +1,31 @@
+version: 2.1
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+    - build_and_test
+jobs:
+  build_and_test:
+    docker:
+      - image: circleci/node:10.14.2-stretch-browsers
+    resource_class: small
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run:
+          name: Install Chrome dependenices
+          command: sh .circleci/install-chrome-dependencies.sh
+      - run:
+          name: Install NPM dependencies
+          command: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - run:
+          name: Running tests
+          command: npm run test
