@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hss",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Default style for JavaScript at Hearsay Social",
   "main": "index.js",
   "scripts": {
