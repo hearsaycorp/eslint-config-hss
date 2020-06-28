@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hss",
-  "version": "6.0.3",
+  "version": "7.0.0",
   "description": "Default style for JavaScript at Hearsay Social",
   "main": "index.js",
   "scripts": {
@@ -16,16 +16,16 @@
     "hss"
   ],
   "peerDependencies": {
-    "eslint": "^4.10.0"
+    "eslint": "6.1.0"
   },
-  "author": "Jordan Eldredge",
+  "author": "Hearsay Systems(Jordan Eldredge, Mike Skalandunas, Afnan Fahim, Ioanis (Sasha) Biternas, Adam Depue)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hearsaycorp/eslint-config-hss/issues"
   },
   "homepage": "https://github.com/hearsaycorp/eslint-config-hss#readme",
   "devDependencies": {
-    "eslint": "^4.10.0",
+    "eslint": "6.1.0",
     "tape": "^4.8.0"
   }
 }
