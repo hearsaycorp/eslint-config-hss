@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hss",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Default style for JavaScript at Hearsay Social",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "hss"
   ],
   "peerDependencies": {
-    "eslint": "6.1.0"
+    "eslint": "8.49.0"
   },
   "author": "Hearsay Systems(Jordan Eldredge, Mike Skalandunas, Afnan Fahim, Ioanis (Sasha) Biternas, Adam Depue)",
   "license": "ISC",
